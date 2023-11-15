@@ -3,19 +3,27 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
+
+/* .content-container{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Header Section */
 
 header{
     display: flex;
     background-color: #1f2937;
-    font-family: "Roboto", sans-serif;
     padding: 0 10%;
     justify-content: space-between;
 }
 
 .logo{
     align-self: center;
-    color: white;
+    color: #f9faf8;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -30,6 +38,47 @@ li{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
     font-weight: 300;
+    font-size: 18px;
+}
+
+/* Section One */
+
+.section-1{
+    display: flex;
+    background-color: #1f2937;
+    padding: 10% 10%;
+    gap: 20px;
+}
+
+.section-1-left{
+    flex: 1;
+}
+
+img{
+    flex: 1;
+    width: 10%;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    cursor: pointer;
+    color: #f9faf8;
+    background: #3882f6;
+    border-radius: 8px;
+    padding: 8px 22px;
+    border: none;
 }
