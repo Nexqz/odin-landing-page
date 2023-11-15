@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.logo{
+    align-self: center;
+    color: white;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
