@@ -101,17 +101,18 @@ h2{
     text-align: center;
     gap: 50px;
     padding: 0 10%;
-    margin-bottom: 6%;
+    margin-bottom: 8%;
 }
 
-.info{
+/* .info{
     align-self: flex-end;
-}
+} */
 
 div > img{
-    width: 80%;
+    width: 60%;
     height: auto;
     padding-bottom: 20px;
+    
 }
 
 /* Section Three */
@@ -136,4 +137,44 @@ div > img{
     align-self: flex-end;
     font-size: 24px;
     font-weight: 700;
+}
+
+/* Section Four */
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    padding: 10% 10%;
+}
+
+.box{
+    display: flex;
+    padding: 3% 8%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    gap: 100px;
+    
+}
+
+.action{
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.button-4{
+    align-self: flex-end;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: #f9faf8;
+    background: #3882f6;
+    border-radius: 8px;
+    padding: 8px 22px;
+    border: solid #f9faf8;
 }
