@@ -101,6 +101,7 @@ h2{
     text-align: center;
     gap: 50px;
     padding: 0 10%;
+    margin-bottom: 6%;
 }
 
 .info{
@@ -111,4 +112,28 @@ div > img{
     width: 80%;
     height: auto;
     padding-bottom: 20px;
+}
+
+/* Section Three */
+
+.section-3{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10% 10%;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
 }
